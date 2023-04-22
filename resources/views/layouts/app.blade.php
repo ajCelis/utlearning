@@ -14,7 +14,7 @@
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!--Css general-->
-    @vite('resources/css/app.css')
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
     <!--Font Awesome 6-->
     <script src="https://kit.fontawesome.com/a8d4026847.js" crossorigin="anonymous"></script>
@@ -24,7 +24,7 @@
     <!--nav-->
     <div class="topnav">
         <a href="/">
-             <img src="{{ secure_asset('img/logo_UT_white.png') }}">
+             <img src="{{ asset('img/logo_UT_white.png') }}">
         </a>
         <div class="dropdown">
             <button class="dropbtn"><b>{{ __('Select a language')}}</b>

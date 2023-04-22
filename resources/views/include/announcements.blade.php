@@ -1,5 +1,5 @@
 <head>
-<link rel="stylesheet" href="{{ secure_asset('css/include/announcements.css') }}">
+<link rel="stylesheet" href="{{ asset('css/include/announcements.css') }}">
 
 </head>
 <div class="pre-announcements">

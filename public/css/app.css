@@ -204,7 +204,10 @@ padding-bottom: 10px;
     }
 }
 @media only screen and (max-width: 800px) {
-
+    .topnav {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
 }
 
 @media screen and (max-width: 600px) {

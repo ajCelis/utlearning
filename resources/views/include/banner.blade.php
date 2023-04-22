@@ -1,5 +1,5 @@
 <head>
-<link rel="stylesheet" href="{{ secure_asset('css/include/banner.css') }}">
+<link rel="stylesheet" href="{{ asset('css/include/banner.css') }}">
 
 </head>
 
