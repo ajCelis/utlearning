@@ -1,0 +1,496 @@
+body {
+    background-color: #14a090;
+    opacity: 1;
+    background-image: linear-gradient(#4ca79d 4px, transparent 4px), linear-gradient(to right, #4ca79d 4px, #14a090 4px);
+    background-size: 90px 180px;
+    align-items: center;
+    box-shadow: 162px 56px 217px 75px rgba(20, 160, 144, 1) inset;
+    -webkit-box-shadow: 162px 56px 217px 75px rgba(20, 160, 144, 1) inset;
+    -moz-box-shadow: 162px 56px 217px 75px rgba(20, 160, 144, 1) inset;
+    scroll-snap-type: y mandatory;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 75px;
+    margin-right: 75px;
+
+
+}
+
+.welcome {
+    color: #f2f2f2;
+    padding-top: 125px;
+    animation: myAnim3 1s linear 0s 1 normal forwards;
+}
+
+/* login*/
+.welcome-header {
+    font-size: 46px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.welcome-body {
+    padding-bottom: 400px;
+}
+
+/*label with its text*/
+.welcome-section {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.welcome-section-adjustment {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-section-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-section-row a {
+    color: #f2f2f2;
+}
+
+.welcome-section-btn {
+    border: none;
+    color: #000000;
+    font-size: 13px;
+    padding: 10px;
+    text-decoration: none;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#f3f2f2), to(#efeded));
+    background: -moz-linear-gradient(top, #ffffff, #fafafa);
+    cursor: pointer;
+}
+
+.welcome-section-btn:hover {
+    background: #ffffff;
+}
+
+.welcome-section-btn:active {
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #17ad9c;
+}
+
+.form-control {
+    margin-bottom: 5px;
+    font-size: 15px;
+    border: none;
+    width: 500px;
+    height: 30px;
+}
+
+.welcome-two {
+    width: 550px;
+    padding-top: 0px;
+}
+
+.welcome-two p {
+    display: none;
+}
+
+.welcome-img {
+    width: 100%;
+    -webkit-mask-image: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 90%, transparent 95%);
+    mask-image: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 90%, transparent 95%);
+    animation: myAnim2 1s linear 0s 1 normal forwards;
+}
+
+.facebook {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #3b5998;
+    color: #FFF;
+    border-radius: 155px;
+    text-align: center;
+    font-size: 25px;
+    z-index: 100;
+    margin-left: -100px;
+    margin-top: 10px;
+    animation: myAnim 2s linear 0s infinite alternate-reverse forwards;
+}
+
+.facebook-icon {
+    margin-top: 12px;
+}
+
+.twitter {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #00acee;
+    color: #FFF;
+    border-radius: 155px;
+    text-align: center;
+    font-size: 25px;
+    z-index: 100;
+    margin-left: -500px;
+    margin-top: 111px;
+    animation: myAnim 2s linear 0s infinite alternate-reverse forwards;
+}
+
+.twitter-icon {
+    margin-top: 12px;
+}
+
+.instagram {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    color: #FFF;
+    border-radius: 155px;
+    text-align: center;
+    font-size: 25px;
+    z-index: 100;
+    margin-left: -575px;
+    margin-top: 350px;
+    animation: myAnim 2s linear 0s infinite alternate-reverse forwards;
+}
+
+.instagram-icon {
+    margin-top: 12px;
+}
+
+
+.gmail {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #b24435;
+    color: #FFF;
+    border-radius: 155px;
+    text-align: center;
+    font-size: 25px;
+    z-index: 100;
+    margin-left: -25px;
+    margin-top: 200px;
+    animation: myAnim 2s linear 0s infinite alternate-reverse forwards;
+}
+
+.gmail-icon {
+    margin-top: 12px;
+}
+
+
+.section-two {
+    background-color: #ffffff;
+    margin-top: -125px;
+    padding-bottom: 75px;
+}
+
+.section-two-container {}
+
+.section-two-container p {
+    color: rgba(20, 160, 144, 1);
+    text-align: center;
+    margin: 0px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    font-size: 46px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.section-three {
+    background-color: #14a090;
+    padding-top: 75px;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.section-three-container p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px;
+    font-size: 46px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 1450px) {
+    .container {
+        display: flex;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome-two {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .welcome-two p {
+        display: block;
+        color: #fff;
+        text-align: center;
+        margin: 0px;
+        padding-bottom: 80px;
+        font-size: 46px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .facebook-icon {
+        margin-top: 18px;
+    }
+
+    .facebook {
+        width: 70px;
+        height: 70px;
+        font-size: 35px;
+        margin-left: 500px;
+        margin-top: 165px;
+    }
+
+    .twitter-icon {
+        margin-top: 18px;
+    }
+
+    .twitter {
+        width: 70px;
+        height: 70px;
+        font-size: 35px;
+        margin-left: -500px;
+        margin-top: 300px;
+    }
+
+    .instagram-icon {
+        margin-top: 18px;
+    }
+
+    .instagram {
+        width: 70px;
+        height: 70px;
+        font-size: 35px;
+        margin-left: -600px;
+        margin-top: 850px;
+    }
+
+    
+    .gmail-icon {
+        margin-top: 18px;
+    }
+
+    .gmail {
+        width: 70px;
+        height: 70px;
+        font-size: 35px;
+        margin-left: 450px;
+        margin-top: 900px;
+    }
+
+    .section-two {
+        margin-top: -425px;
+    }
+
+    .section-two-container p {
+        padding-top: 500px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {}
+
+@media only screen and (max-width: 800px) {
+    .welcome-img {
+        width: 400px;
+    }
+
+    .facebook {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        margin-left: 350px;
+        margin-top: 150px;
+    }
+
+    .facebook-icon {
+        margin-top: 12px;
+    }
+
+    .instagram {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        margin-left: -450px;
+        margin-top: 650px;
+    }
+
+    .instagram-icon {
+        margin-top: 12px;
+    }
+
+    .twitter {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        margin-left: -350px;
+        margin-top: 250px;
+    }
+
+    .twitter-icon {
+        margin-top: 12px;
+    }
+
+    .gmail {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        margin-left: 350px;
+        margin-top: 650px;
+    }
+
+    .gmail-icon {
+        margin-top: 12px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .welcome-header {
+        font-size: 28px;
+    }
+
+    .welcome-section {
+        font-size: 15px;
+    }
+
+    .welcome-section-btn {
+        font-size: 15px;
+    }
+
+    .form-control {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .welcome-two p {
+        font-size: 28px;
+    }
+
+    .welcome-img {
+        width: 300px;
+    }
+    .facebook {
+        margin-left: 250px;
+    }
+        .twitter {
+        margin-left: -250px;
+    }
+    .gmail {
+        margin-left: 250px;
+        margin-top: 450px;
+    }
+    .instagram {
+        margin-left: -350px;
+        margin-top: 450px;
+
+    }
+    .section-two-container p {
+        font-size: 28px;
+    }
+    .section-three-container p {
+        font-size: 28px;
+    }
+    .welcome-two {
+        width: 100%;
+        padding-top: 0px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .instagram {
+        margin-left: -250px;
+        margin-top: 450px;
+
+    }
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+@keyframes myAnim2 {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+@keyframes myAnim3 {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
